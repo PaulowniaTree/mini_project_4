@@ -124,6 +124,8 @@ class Dictionary:
             list: The list of indexes of the string.
         """
         idx = list()
+        print(string)
+        print(type(string))
         for s in string:
             char_idx = self.char2idx(s)
             if char_idx is None:
